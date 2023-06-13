@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@100&display=swap');
+#image{
+    height: 33px;
+    width: 268px;
+}
+.nav{
+    display:flex;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+/* ending nav bar */
+.list{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    line-height: 30px;
+    }
+ul{
+    margin-left: auto;
+    font-family: "roboto",helvetica,arial;
+    font: size 16px;
+    height: 26px;
+    width: 63px;
+    
+    }
+li{
+    align-items: top 10px ;
+    list-style-type: none
+    
+}
+/* ending list */
+/* partie link */
+.b:hover{
+    color:  #00B39B;
+    cursor: pointer;
+}
+.c:hover{
+    color: #00B39B;
+    cursor: pointer;
+}
+.b,.c{
+    color: #ababab ;
+}
+.a{
+    color: #00B39B;
+    cursor: pointer;
+}
+/* list of department */
+.b3 {
+    list-style-type: none;
+    color: #ababab;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: -5px;
+    z-index: 1;
+    padding: 0;
+    display: none;
+  }
+  
+  .b4 {
+    position: relative;
+  }
+  
+  .b3 li {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 10px; /* Adjusted padding value */
+    margin-right: -25px;
+  }
+  
+  .b3 li:hover {
+    background-color: #dadada;
+    color: #00B39B;
+  }
+  
+  .b4:hover .b3 {
+    display: flex;
+  }
+  /* partie section 1 */
+  .section1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  h1 {
+    align-self: center;
+  }
+  
+  .icon {
+    padding-top: 75px;
+    height: 39px;
+    width: 40px;
+    margin: 0 auto;
+  }
+  
+  .paragraphs-container {
+    display: flex; 
+  }
+  
+  .p1,.p2 {
+    flex: 1; 
+  }
+  /* partie section 2 */
+  .div0 {
+    display: flex;
+  }
+  
+  .div1 {
+    background-color: #00ccb1;
+    height: 250px;
+    width: 250px;
+  }
+  
+  .div2 {
+   background-color:#747474;
+  }
+  
+  .div3 {
+    background-color: #1B2734;
+  }
+  #you{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+  }
+  #me{
+        font-size: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-style: "roboto",arial,sans-serif;
+  }
